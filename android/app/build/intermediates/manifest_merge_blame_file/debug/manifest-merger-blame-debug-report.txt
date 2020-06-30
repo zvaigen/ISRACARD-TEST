@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.isratest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/tom/Downloads/IsraTest/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/tom/Downloads/IsraTest/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.33.1] /Users/tom/.gradle/caches/transforms-2/files-2.1/5033210588c9aa5ba029443d7c05dc69/jetified-flipper-0.33.1/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.33.1] /Users/tom/.gradle/caches/transforms-2/files-2.1/5033210588c9aa5ba029443d7c05dc69/jetified-flipper-0.33.1/AndroidManifest.xml:16:22-73
+14
+15    <application
+15-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:6:5-25:19
+16        android:name="com.isratest.MainApplication"
+16-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:7:7-38
+17        android:allowBackup="false"
+17-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:11:7-34
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] /Users/tom/.gradle/caches/transforms-2/files-2.1/f0d5be975fec9a07834c10edd6b2cb66/core-1.1.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:9:7-41
+21        android:label="@string/app_name"
+21-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:8:7-39
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:10:7-52
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme"
+24-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:12:7-38
+25        android:usesCleartextTraffic="true" >
+25-->/Users/tom/Downloads/IsraTest/android/app/src/debug/AndroidManifest.xml:7:18-53
+26        <activity
+26-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:13:7-23:18
+27            android:name="com.isratest.MainActivity"
+27-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:14:9-37
+28            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+28-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:16:9-86
+29            android:label="@string/app_name"
+29-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:15:9-41
+30            android:launchMode="singleTask"
+30-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:17:9-40
+31            android:windowSoftInputMode="adjustResize" >
+31-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:18:9-51
+32            <intent-filter>
+32-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:19:9-22:25
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:20:13-65
+33-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:20:21-62
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:21:13-73
+35-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:21:23-70
+36            </intent-filter>
+37        </activity>
+38        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+38-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:24:7-84
+38-->/Users/tom/Downloads/IsraTest/android/app/src/main/AndroidManifest.xml:24:17-81
+39        <activity
+39-->[com.google.android.gms:play-services-auth:16.0.1] /Users/tom/.gradle/caches/transforms-2/files-2.1/cdef9c366c99cb235847970868a39233/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+40            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+40-->[com.google.android.gms:play-services-auth:16.0.1] /Users/tom/.gradle/caches/transforms-2/files-2.1/cdef9c366c99cb235847970868a39233/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+41            android:excludeFromRecents="true"
+41-->[com.google.android.gms:play-services-auth:16.0.1] /Users/tom/.gradle/caches/transforms-2/files-2.1/cdef9c366c99cb235847970868a39233/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+42            android:exported="false"
+42-->[com.google.android.gms:play-services-auth:16.0.1] /Users/tom/.gradle/caches/transforms-2/files-2.1/cdef9c366c99cb235847970868a39233/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+43            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+43-->[com.google.android.gms:play-services-auth:16.0.1] /Users/tom/.gradle/caches/transforms-2/files-2.1/cdef9c366c99cb235847970868a39233/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+44        <!--
+45            Service handling Google Sign-In user revocation. For apps that do not integrate with
+46            Google Sign-In, this service will never be started.
+47        -->
+48        <service
+48-->[com.google.android.gms:play-services-auth:16.0.1] /Users/tom/.gradle/caches/transforms-2/files-2.1/cdef9c366c99cb235847970868a39233/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+49            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+49-->[com.google.android.gms:play-services-auth:16.0.1] /Users/tom/.gradle/caches/transforms-2/files-2.1/cdef9c366c99cb235847970868a39233/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+50            android:exported="true"
+50-->[com.google.android.gms:play-services-auth:16.0.1] /Users/tom/.gradle/caches/transforms-2/files-2.1/cdef9c366c99cb235847970868a39233/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+51            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+51-->[com.google.android.gms:play-services-auth:16.0.1] /Users/tom/.gradle/caches/transforms-2/files-2.1/cdef9c366c99cb235847970868a39233/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+52
+53        <activity
+53-->[com.google.android.gms:play-services-base:16.0.1] /Users/tom/.gradle/caches/transforms-2/files-2.1/9592f8c65f3e01f303f2186d0dbddd85/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+54            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+54-->[com.google.android.gms:play-services-base:16.0.1] /Users/tom/.gradle/caches/transforms-2/files-2.1/9592f8c65f3e01f303f2186d0dbddd85/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+55            android:exported="false"
+55-->[com.google.android.gms:play-services-base:16.0.1] /Users/tom/.gradle/caches/transforms-2/files-2.1/9592f8c65f3e01f303f2186d0dbddd85/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+56            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+56-->[com.google.android.gms:play-services-base:16.0.1] /Users/tom/.gradle/caches/transforms-2/files-2.1/9592f8c65f3e01f303f2186d0dbddd85/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+57
+58        <meta-data
+58-->[com.google.android.gms:play-services-basement:16.0.1] /Users/tom/.gradle/caches/transforms-2/files-2.1/13dcdcc64f5ddeb8b4cac1f82a3c7670/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+59            android:name="com.google.android.gms.version"
+59-->[com.google.android.gms:play-services-basement:16.0.1] /Users/tom/.gradle/caches/transforms-2/files-2.1/13dcdcc64f5ddeb8b4cac1f82a3c7670/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+60            android:value="@integer/google_play_services_version" />
+60-->[com.google.android.gms:play-services-basement:16.0.1] /Users/tom/.gradle/caches/transforms-2/files-2.1/13dcdcc64f5ddeb8b4cac1f82a3c7670/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+61    </application>
+62
+63</manifest>

@@ -1,0 +1,6 @@
+module Pods_IsraTest_IsraTestTests {
+  umbrella header "Pods-IsraTest-IsraTestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
